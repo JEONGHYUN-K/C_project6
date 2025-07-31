@@ -29,9 +29,7 @@ int main(void) {
     int missCount = 0;
 
     while (1) {
-        system("clear"); // ※ Windows가 아니면 "clear" (Linux/macOS)  
-        // Windows에서 실행한다면 cmd창에서 수동으로 화면 지워주세요
-
+        system("clear");   
         printCards();
         printf("失敗回数: %d 回\n\n", missCount);
 
